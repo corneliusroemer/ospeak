@@ -16,8 +16,8 @@ Install this tool using `pipx`:
 pipx install ospeak
 ```
 Note, on MacOS there's a [broken dependency](https://github.com/simonw/ospeak/issues/4) with Python 3.12 so instead run:
-```bash 
-pipx install --python /path/to/python3.11 ospeak
+```bash
+pipx install --python 3.11 ospeak
 ```
 
 This tool also depends on `ffmpeg`. You can install that on macOS using [Homebrew](https://brew.sh/) like this:
